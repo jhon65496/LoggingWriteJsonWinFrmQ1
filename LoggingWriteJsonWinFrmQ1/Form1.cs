@@ -15,6 +15,14 @@ namespace LoggingWriteJsonWinFrmQ1
         public Form1()
         {
             InitializeComponent();
+
+            CreateLogger();
+        }
+        
+        public void CreateLogger()
+        {
+            Logger1 lg = new Logger1();
+            lg.CreateLogger();
         }
     }
 }
